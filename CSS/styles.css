@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+p {
+    
+    color: rgb(6, 39, 52);
+   
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #819FA1;
+    margin: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+  border: 2px solid #910088;
+  border-radius: 1rem;
+  text-indent: 1rem;
+  box-sizing: border-box;
+    
+}
+
+.Image Text {
+    float: right;
+    margin-right: 1rem;
+    text-align: justify;
+    text-orientation: sideways;
+    flex: 1;
+    justify-content: space-around;
+    
+}
+
+.text {
+    flex: 1;
+}
+
+/* .fav {
+    color: rgb(27, 6, 103);
+    border: 2px solid #910088;
+    border-radius: 1rem;
+    text-align: justify;
+    padding: 1rem;
+    text-orientation: sideways;
+    
+    
+    
+} */
+
+
+
+.others {
+    color: rgb(27, 6, 103);
+    border: 2px solid #910088;
+    border-radius: 1rem;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.container {
+  border: 10px double rgb(171, 6, 91);  
+  outline: 3px solid #124E78;
+  outline-offset: -18px;
+  padding-left: 1.5rem;
+  width: 18%;
+  margin: auto;
+  border-radius: 20%;
+}
+
+
+
+a {
+    color: #64113F;
+}
+a:hover, a:focus {
+    color: #d80da9;
+   
+}
+
+ol {
+    list-style-type:decimal;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-image: url('../img/Green\ Tick\ 1.png');
+}
+
+
+

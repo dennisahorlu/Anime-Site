@@ -1,0 +1,20 @@
+html {
+    font-size: 22px;
+}
+body {
+    background-color: aqua;
+    color: black;
+}
+a:visited {
+    color: rgb(195, 25, 150);
+}
+a:hover, a:active{
+    color:#06d8a7
+}
+
+table, tr, th, td, caption {
+    border: 2px solid #d40fe6;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
