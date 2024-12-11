@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 nav {
@@ -33,31 +33,25 @@ nav {
     
 }
 
-.Image Text {
-    float: right;
-    margin-right: 1rem;
-    text-align: justify;
-    text-orientation: sideways;
-    flex: 1;
-    justify-content: space-around;
+.Image {
+    float: left;
+    margin: 1rem 1rem 1rem 1rem;
     
 }
 
 .text {
-    flex: 1;
+    text-align: justify;
+    text-orientation: sideways-right;
+    justify-content: right;
 }
 
-/* .fav {
+.fav {
     color: rgb(27, 6, 103);
     border: 2px solid #910088;
     border-radius: 1rem;
     text-align: justify;
-    padding: 1rem;
-    text-orientation: sideways;
-    
-    
-    
-} */
+    padding: 1rem;       
+}
 
 
 
