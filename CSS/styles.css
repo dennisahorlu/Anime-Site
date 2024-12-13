@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 3px;
 
 }
 p {
@@ -14,7 +14,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
     background-color: #819FA1;
-    margin: 2rem;
+    /* margin: 2rem; */
 }
 
 h1 {
@@ -36,6 +36,7 @@ nav {
 .Image {
     float: left;
     margin: 1rem 1rem 1rem 1rem;
+    /* height: auto; */
     
 }
 
@@ -50,7 +51,7 @@ nav {
     border: 2px solid #910088;
     border-radius: 1rem;
     text-align: justify;
-    padding: 1rem;       
+    /* padding: 1rem;        */
 }
 
 
@@ -60,7 +61,7 @@ nav {
     border: 2px solid #910088;
     border-radius: 1rem;
     text-align: justify;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .container {
@@ -71,6 +72,10 @@ nav {
   width: 18%;
   margin: auto;
   border-radius: 20%;
+}
+
+.column {
+   column-count: 2; 
 }
 
 
