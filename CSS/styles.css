@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 3px;
+    padding: 4px;
 
 }
 p {
@@ -76,9 +76,19 @@ nav {
 
 .column {
    column-count: 2; 
+   column-rule: 3px solid #910088;
+   /* break-inside: avoid; */
 }
 
+.column p {
+    margin-top: 0;
+    break-inside: avoid;
+    break-before:column;
+}
 
+.nowrap {
+    white-space: nowrap;
+}
 
 a {
     color: #64113F;
